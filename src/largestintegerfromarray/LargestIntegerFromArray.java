@@ -19,16 +19,7 @@ import java.util.Comparator;
  * @author ali_hassan_syed
  */
 public class LargestIntegerFromArray 
-{
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) 
-    {
-        
-    }
-    
+{    
     public String largestNumber(int[] nums) 
     {
         if (nums == null || nums.length == 0)
@@ -58,9 +49,6 @@ public class LargestIntegerFromArray
         for (String s : numsStr)
             sb.append(s);
         
-        return sb.toString();
-        
-        
+        return sb.toString();        
     }
-    
 }
